@@ -1,0 +1,9 @@
+AppSettings
+===========
+
+AppSettings is an ActiveRecord plugin for storing application settings in the application database.
+It provides the AppSettingsData ActiveRecord class, which loads all settings data on server startup. 
+This class provides a convenient way to load application settings as constants under it, for example:
+AppSettingsData::MAXIMUM_ALLOWANCE = 7
+
+Copyright (c) 2009 Radamanthus Batnag, released under the MIT license
